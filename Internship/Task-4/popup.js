@@ -12,7 +12,7 @@ const unproductiveSites = [
     "tiktok.com",
     "twitter.com",
 ];
-// setting the local storage to make the extension run
+// setting the local storage to make the extension run and work.
 chrome.storage.local.get("totals", ({totals}) => {
     const container = document.getElementById("list");
     if (!totals) return (container.textContent = "No data yet.");
