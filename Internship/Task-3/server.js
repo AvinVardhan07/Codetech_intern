@@ -77,3 +77,4 @@ io.on("connection", (socket) => {
 server.listen(4000, () =>
     console.log("Server running on http://localhost:4000")
 );
+// i was lacking a little bit of time so i am not using any Framework like react or like that so i just used node js and Vanilla JS.
