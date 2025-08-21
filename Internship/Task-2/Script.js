@@ -4,7 +4,7 @@ const form = document.getElementById("form");
 const input = document.getElementById("input");
 const messages = document.getElementById("messages");
 const typingStatus = document.getElementById("typing-status");
-// taking vaiable as myId and later then manipulating.
+// taking vaiable as myId and later then manipulating and assigning some values to it.
 let myId = null;
 
 socket.on("connect", () => {
