@@ -2,7 +2,7 @@ window.onload = function () {
     const container = document.getElementById("product-container"); // html div element where the API data is fetched and shown on browser
 
     fetch("https://dummyjson.com/products") // this is the fake API used found it online
-        .then((res) => res.json()) // converting the API data to JSON
+        .then((res) => res.json()) // converting the API data to JSON data
         .then((data) => {
             // hadling the data
             console.clear();
