@@ -1,6 +1,7 @@
 const socket = io(); // using common JS module to use the input and output
 const editor = document.getElementById("editor"); // getting the HTML elements
 const uploadBtn = document.getElementById("uploadBtn");
+// all the other HTML elements that are used and we are taking them as reference
 const fileInput = document.getElementById("fileInput");
 const usernameInput = document.getElementById("usernameInput");
 const landing = document.getElementById("landing");
